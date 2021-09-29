@@ -1,6 +1,6 @@
 {
   "name": "trivial-compare",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simplest possible JavaScript comparison function, as a module",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,10 @@
   },
   "repository": "https://github.com/perliedman/trivial-compare",
   "homepage": "https://github.com/perliedman/trivial-compare",
-  "keywords": ["compare", "sort"],
+  "keywords": [
+    "compare",
+    "sort"
+  ],
   "author": "Per Liedman <per@liedman.net>",
   "license": "ISC"
 }
