@@ -2,7 +2,7 @@ trivial-compare
 ===============
 
 The simplest possible compare function that can be used with JavaScript's `Array.prototype.sort`
-and any data type that gives reasonable results for the `&lt;` and `&gt;` comparison operators.
+and any data type that gives reasonable results for the `<` and `>` comparison operators.
 
 In practice, this means you can use this library to sort numbers as well as strings without caring
 what the elements actually are.
@@ -20,4 +20,4 @@ There's just a single function exported by this library:
 
 `compare(a, b)`
 
-`comapare` will return `-1` if `a &lt; b`, `1` if `a &gt; b` and `0` otherwise (if they are equal, in other words).
+`comapare` will return `-1` if `a < b`, `1` if `a > b` and `0` otherwise (if they are equal, in other words).
